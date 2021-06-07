@@ -1,0 +1,18 @@
+Algoritmo Ej10
+	Escribir "Ingrese numeros para sumarlos"
+	Suma = 0
+	Definir SumaN Como Entero
+	Definir Multi Como Entero
+	Hacer
+		Leer Num1
+		Suma = Num1 + Suma
+		Si Num1%6 = 0
+			Multi = Multi + 1
+		FinSi
+		Si Num1 >= 1 Y Num1 <= 10
+			SumaN = SumaN + Num1
+		FinSi
+	Hasta Que Suma >= 1000 
+	Escribir "Hay " Multi " Multiplos de 6"
+	Escribir "La suma de numeros ingresados entre el 1 y 10 es de: " SumaN
+FinAlgoritmo
